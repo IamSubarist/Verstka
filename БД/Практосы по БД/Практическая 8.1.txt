@@ -1,0 +1,35 @@
+1.
+SELECT DISTINCT cname, rating
+FROM customers
+ORDER BY rating
+
+2.
+SELECT DISTINCT snum, cname
+FROM customers
+ORDER BY snum
+
+3.
+SELECT snum, sname, city
+FROM salespeople
+ORDER BY sname DESC
+
+4.
+SELECT DISTINCT cname, city, rating
+FROM customers
+ORDER BY rating, cname
+
+5.
+SELECT DISTINCT snum, sname, city
+FROM salespeople
+GROUP BY city
+ORDER BY sname
+
+6.
+SELECT DISTINCT cname, city, rating
+FROM customers
+GROUP BY cname
+
+7.
+SELECT DISTINCT city, rating
+FROM customers
+ORDER BY rating

@@ -1,0 +1,44 @@
+1.
+SELECT SUM(amt), odate
+FROM orders
+WHERE odate = '1990-03-10'
+
+2.
+
+
+3.
+SELECT MIN(amt), cnum
+FROM orders
+GROUP BY cnum
+
+4.
+SELECT MIN(amt), odate, snum
+FROM orders
+GROUP BY cnum
+
+5.
+SELECT MIN(amt), cnum
+FROM orders
+WHERE cnum = '2004' OR cnum = '2006' OR cnum = '2008'
+GROUP BY cnum
+
+6.
+SELECT cname
+FROM customers
+WHERE cname LIKE 'G%'
+ORDER BY cname
+
+7.
+SELECT city, MAX(rating)
+FROM customers
+GROUP BY city
+
+8.
+SELECT COUNT(snum), odate
+FROM orders
+GROUP BY odate
+
+9.
+SELECT COUNT(onum), odate, snum
+FROM orders
+GROUP BY 

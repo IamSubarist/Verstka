@@ -1,0 +1,47 @@
+Практическая 6.1
+
+2.1
+SELECT *
+FROM customers
+WHERE snum = '1001' OR snum = '1002' OR snum = '1007'
+
+2.2
+SELECT *
+FROM orders
+WHERE cnum = '2001' OR cnum = '2004' OR cnum = '2008'
+
+2.3
+SELECT *
+FROM salespeople
+WHERE snum BETWEEN '1001' AND '1005'
+
+2.4
+SELECT *
+FROM salespeople
+WHERE comm BETWEEN '0.10' AND '0.13'
+
+2.5
+
+
+2.6
+
+
+2.7
+SELECT *
+FROM orders
+WHERE odate BETWEEN '1990-03-10' AND '1990-05-10'
+
+2.8
+SELECT *
+FROM customers
+WHERE cname LIKE 'G%'
+
+2.9
+SELECT *
+FROM customers
+WHERE cname LIKE 'C%'
+
+2.10
+SELECT *
+FROM customers
+WHERE cname LIKE 'G%s'

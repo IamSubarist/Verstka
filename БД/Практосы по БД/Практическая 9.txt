@@ -1,0 +1,49 @@
+1.
+SELECT DISTINCT salespeople.sname, customers.cname, orders.amt
+FROM salespeople, customers, orders
+WHERE salespeople.snum = customers.snum AND salespeople.snum = orders.snum AND orders.amt BETWEEN 700 AND 2000
+
+2.
+SELECT DISTINCT salespeople.sname, orders.amt
+FROM salespeople, orders
+WHERE salespeople.snum = orders.snum
+
+3.
+SELECT DISTINCT salespeople.sname, customers.cname
+FROM salespeople, customers
+WHERE salespeople.snum = customers.snum
+
+4.
+SELECT DISTINCT salespeople.sname, customers.cname, salespeople.city
+FROM salespeople, customers
+WHERE salespeople.snum = customers.snum AND salespeople.city = customers.city
+
+5.
+SELECT DISTINCT orders.odate, salespeople.comm
+FROM orders, salespeople
+WHERE comm <= 0.11 AND orders.snum = salespeople.snum
+
+6.
+SELECT DISTINCT orders.amt, customers.rating
+FROM orders, customers
+WHERE rating > 100 AND orders.cnum = customers.cnum
+
+7.
+SELECT DISTINCT salespeople.sname, orders.odate
+FROM salespeople, orders
+WHERE orders.odate = '1990-03-10'
+
+8.
+SELECT DISTINCT customers.cname, orders.amt, salespeople.comm, orders.odate
+FROM customers, orders, salespeople
+WHERE orders.odate = '1990-04-10' AND customers.snum = salespeople.snum AND customers.snum = orders.snum
+
+9.
+SELECT DISTINCT customers.cname, customers.rating, orders.amt, orders.odate
+FROM customers, orders
+WHERE orders.amt > 3000 AND odate = '1990-03-10' AND customers.cnum = orders.cnum
+
+10.
+SELECT DISTINCT orders.onum, customers.cname, salespeople.sname, customers.city
+FROM orders, customers, salespeople
+WHERE customers.city = 'San Jose' AND salespeople.city = 'San Jose' AND customers.snum = salespeople.snum AND customers.snum = orders.snum

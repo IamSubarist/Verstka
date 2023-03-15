@@ -1,0 +1,48 @@
+Практическая 6
+
+4.1.
+SELECT DISTINCT city
+FROM customers
+
+4.2
+SELECT DISTINCT rating
+FROM customers
+
+4.3
+SELECT DISTINCT comm
+FROM salespeople
+
+4.4
+SELECT *
+FROM salespeople
+WHERE city = 'London'
+
+4.5
+SELECT *
+FROM salespeople
+WHERE comm > '0.12'
+
+4.6
+SELECT *
+FROM customers
+WHERE city = 'Rome'
+
+4.7
+SELECT *
+FROM customers
+WHERE rating = "100" OR rating = "300"
+
+4.8
+SELECT *
+FROM orders
+WHERE amt < '1000'
+
+4.9
+SELECT *
+FROM customers
+WHERE city = 'Rome' AND rating = '200'
+
+4.10
+SELECT *
+FROM customers
+WHERE city = 'Berlin' OR rating = '300'

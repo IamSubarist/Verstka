@@ -1,0 +1,64 @@
+Практическая 7
+
+1.
+SELECT COUNT(*)
+AS 'Количество продавцов'
+FROM salespeople
+
+2.
+SELECT COUNT(city)
+AS 'Города продавцов'
+FROM salespeople
+
+3.
+SELECT COUNT(*)
+AS 'Количество строк'
+FROM customers
+
+4.
+SELECT SUM(rating)
+AS 'Общий рейтинг заказчиков'
+FROM customers
+
+5.
+SELECT SUM(amt)
+AS 'Сумма заказов'
+FROM orders
+
+6.
+SELECT AVG(rating)
+AS 'Средний рейтинг заказчиков'
+FROM customers
+
+7.
+SELECT AVG(amt)
+AS 'Средняя стоимость заказов'
+FROM orders
+
+8.
+SELECT MIN(rating)
+AS 'Минимальный рейтинг заказчика'
+FROM customers
+
+9.
+SELECT MAX(comm)
+AS 'Максимальныая комиссия продавца'
+FROM salespeople
+
+10.
+SELECT SUM(amt+dostavka)
+AS 'Общая стоимость заказа'
+FROM orders
+
+11.
+SELECT cname, city, rating / 50
+FROM customers
+
+12.
+SELECT sname, city, sin(comm)*10
+FROM salespeople
+
+13.
+
+
+14.

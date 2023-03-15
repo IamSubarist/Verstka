@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Host: http://a0759327.xsph.ru/
+Sitemap: sitemap.xml
+User-agent: Yandex

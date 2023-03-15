@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f8f8f8;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 700px;
+	background-color: #abeafa;
+	font-family: Raleway;
+}
+.header__top{
+	width: 100%;
+	height: 220px;
+}
+.header__logo{
+	float: left;
+	margin-left: 70px;
+	margin-top: 25px;
+}
+.header__item{
+	float: right;
+	margin-right: 70px;
+	margin-top: 25px;
+}
+.header__item1{
+	float: right;
+	margin-right: 70px;
+}
+.item__list-link{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+}
+.header__bottom{
+	height: 480px;
+}
+.header__welcome{
+	width: 270px;
+	height: 300px;
+	background-color: #fff51f;
+	color: black;
+	float: left;
+	margin-top: 120px;
+	padding: 0 10px;
+}
+.welcome__welcome{
+	font-size: 30px;
+	margin-left: 10px;
+	margin-top: 70px;
+	font-weight: bold;
+}
+.welcome__info{
+	font-size: 18px;
+	margin-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+.header__info{
+	width: 325px;
+	height: 325px;
+	float: right;
+	
+}
+.info__text{
+	color: #fff51f;
+}
+.info__info{
+	font-size: 48px;
+	font-weight: bold;
+}
+.info-info{
+	font-size: 18px;
+}
+.header__info-btn{
+	margin-top: 60px;
+}
+.info-btn{
+	background-color: #fff51f;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.aside{
+	float: left;
+	margin-bottom: 70px;
+}
+.aside__nav{
+	width: 270px;
+	height: 475px;
+}
+.nav-menu{
+	background-color: #333333;
+	color: white;
+	display: block;
+	padding: 15px 60px 15px 40px;
+}
+.nav__menu-list-link{
+	list-style: none;
+	background-color: #26d2fc;
+	color: black;
+	height: 50px;
+	font-weight: bold;
+}
+.nav__menu-link{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 15px 60px 15px 40px;
+}
+.nav__menu-link:hover{
+	background-color: #333333;
+	color: white;
+}
+.aside__info{
+	width: 270px;
+	height: 300px;
+	background-color: #e0e0e0;
+	margin-top: 70px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+.info-text{
+	color: #333333;
+	padding-top: 130px;
+	padding-left: 140px;
+	font-size: 36px;
+	font-style: italic;
+}
+.section__left{
+	float: left;
+}
+.section__right{
+	float: right;
+	width: 870px;
+	margin-left: 30px;
+	background-color: #f8f8f8;
+	font-family: 'Roboto', sans-serif;
+}
+.section__item{
+	width: 270px;
+	height: 320px;
+	margin-left: 10px;
+	float: left;
+	background-color: white;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.item-name{
+	color: #707070;
+	font-size: 22px;
+	font-style: italic;
+	float: left;
+}
+.item-img{
+	width: 250px;
+	height: 230px;
+	background-color: #eaeaea;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.item-text{
+	font-style: italic;
+	float: left;
+	margin-top: 60px;
+	padding-left: 20px;
+}
+.item-value{
+	font-style: italic;
+	float: right;
+	margin-top: 60px;
+	padding-right: 20px;
+}
+.section-brands{
+	height: 160px;
+	text-align: center;
+	line-height: 170px;
+	background-color: white;
+}
+.section__instagram-feed{
+	text-align: center;
+	background-color: #eaeaea;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.insta-text{
+}
+.instagram-item{
+	margin-top: 20px;
+	text-align: center;
+}
+.instagram-img{
+	display: inline;
+}
+.section__logo-item{
+}
+.logo-item{
+	display: inline;
+}
+.footer{
+	background-color: #373737;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway';
+	height: 350px;
+}
+.footer-left{
+	color: white;
+}
+.footer-bottom{
+	height: 50px;
+	background-color: #333333;
+}
+.footer-content{
+	display: inline;
+}
+.footer__nav{
+	color: white;
+	width: 170px;
+	height: 270px;
+	float: left;
+	margin-top: 75px;
+	margin-right: 25px;
+}
+.footer__nav1{
+	color: white;
+	width: 270px;
+	height: 270px;
+	float: left;
+	margin-top: 75px;
+	margin-right: 25px;
+}
+.footer__nav1:last-child{
+	margin-right: 0;
+}
+.fnav-menu{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+.fnav__menu-list{
+	margin-top: 30px;
+	font-size: 12px;
+}
+.fnav__menu-list1{
+	margin-top: 10px;
+	font-size: 12px;
+}
+.fnav__menu-list-link{
+	list-style: none;
+	color: white;
+}
+.fnav__menu-link{
+	text-decoration: none;
+	color: white;
+}
+.fnav__menu-link:hover{
+	text-decoration: underline;
+	color: white;
+}
+.newsletter_items{
+	margin-top: 45px;
+}
+.newsletter_img{
+	display: inline;	
+}
+.input{
+	background-color: yellow;
+	margin-top: 20px;
+	width: 180px;
+	height: 30px;
+	text-indent: 10px;
+}
+.btn{
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	width: 70px;
+	height: 30px;
+}
+.phone{
+	font-size: 12px;
+	margin-top: 15px;
+}
+.em{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.bottom-left{
+	color: white;
+}
+.email{
+	margin-top: 15px;
+	font-size: 12px;
+	text-decoration: none;
+	color: yellow;
+}
+.email:hover{
+	text-decoration: underline;
+	color: yellow;
+}
+.clearfix{
+	clear: both;
+}

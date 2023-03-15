@@ -1,0 +1,36 @@
+1.
+SELECT DISTINCT*
+FROM orders
+WHERE cnum =
+(SELECT DISTINCT cnum
+FROM customers
+WHERE cname = 'Hoffman')
+
+2.
+SELECT DISTINCT *
+FROM orders
+WHERE snum =
+(SELECT DISTINCT snum
+FROM salespeople
+WHERE city = 'New York')
+
+3.
+SELECT DISTINCT cname
+FROM customers
+WHERE snum = (SELECT DISTINCT snum
+FROM salespeople
+WHERE sname = 'Motika')
+
+4.
+SELECT DISTINCT sname
+FROM salespeople
+WHERE snum = (SELECT DISTINCT snum
+FROM customers
+WHERE cname = 'Liu')
+
+5.
+SELECT DISTINCT *
+FROM orders
+WHERE cnum = (SELECT DISTINCT cnum
+FROM customers
+WHERE rating = '100' AND city = 'Rome')

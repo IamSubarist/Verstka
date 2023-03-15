@@ -1,0 +1,38 @@
+1.
+SELECT DISTINCT a.sname, b.sname, a.city
+FROM salespeople a, salespeople b
+WHERE a.sname = b.sname AND a.city = b.city
+
+2.
+SELECT DISTINCT a.cname, b.cname, a.rating
+FROM customers a, customers b
+WHERE a.cname < b.cname AND a.rating = b.rating
+
+3.
+SELECT DISTINCT a.onum, b.onum, customers.cname
+FROM orders a, orders b, customers
+WHERE a.onum < b.onum AND a.cnum = customers.cnum AND b.cnum = customers.cnum
+
+4.
+SELECT DISTINCT a.cname, b.cname, a.city, a.rating
+FROM customers a, customers b
+WHERE a.cname < b.cname AND a.rating = b.rating
+
+5.
+
+
+6.
+
+
+7.
+
+
+8.
+
+
+9.
+SELECT DISTINCT a.amt, b.amt, a.odate
+FROM orders a, orders b
+WHERE a.odate = b.odate AND a.amt > b.amt
+
+10.

@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: #ffa0a0;
+    border-bottom: 1px solid black;
+}
+.header__logo{
+    float: left;
+    margin-top: 5px;
+}
+.img{
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+.header__menu{
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+}
+.menu__list{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.menu__list-item{
+    float: left;
+    list-style: none;
+}
+.menu__link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 35px;
+    line-height: 30px;
+}
+.menu__link:hover{
+    background-color: #ff6a6a;
+}
+.center{
+    margin-top: 20px;
+}
+.content-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.left__content{
+    float: left;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ffa0a0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.item-message{
+    margin-bottom: 10px;
+}
+.message__btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffa0a0;
+}
+.rate{
+    font-weight: bold;
+}
+.phone{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ffa0a0;
+}
+.message__btn:hover{
+    background-color: #ff6a6a;
+    border-radius: 10px;
+    color: black;
+}
+.phone:hover{
+    background-color: #ff6a6a;
+    border-radius: 10px;
+    color: black;
+}
+.right__content{
+    float: right;
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ffa0a0;
+}
+.zag, .rofl{
+    text-align: center;
+}
+.information{
+    text-align: justify;
+}
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: black;
+}
+.footer__content{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.otziv{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ffa0a0;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.otziv__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.otziv__content{
+    float: right;
+    text-align: justify;
+    width: 90%;
+}
+.otziv__author{
+    color: gray;
+    font-size: small;
+}
+.clearfix{
+    clear: both;
+}
